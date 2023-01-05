@@ -10,6 +10,7 @@ axios.defaults.params = {
   image_type: 'photo',
   orientation: 'horizontal',
   per_page: IMAGES_PER_PAGE,
+  safesearch: false,
 };
 
 export const getImages = async (query, page) => {
